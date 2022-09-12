@@ -36,7 +36,7 @@ func TestFactorial(t *testing.T) {
 		assert.Equal(t, expected, resultado)
 	})
 
-	t.Run("factorial de 3 debe dar 6", func(t *testing.T) {
+	t.Run("factorial de 4 debe dar 24", func(t *testing.T) {
 		value := 4
 		expected := 24
 		resultado := factorial(value)
